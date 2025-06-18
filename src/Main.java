@@ -177,14 +177,14 @@ public class Main {
         employeeList[9] = new Employee("Пётр", "Григорьевич",
                 "Фёдоров", "Четвёртый", 105_000);
 
-//        printEmployeeList(employeeList);
-//        System.out.printf("%nРасходы на зарплату в месяц - %dр%n", calcSalaryMonthly(employeeList));
-//        System.out.printf("%nСотрудник с минимальной зарплатой:%n%s%n", findMinSalary(employeeList));
-//        System.out.printf("%nСотрудник с максимальной зарплатой:%n%s%n", findMaxSalary(employeeList));
-//        System.out.printf("%nСотрудник с максимальной зарплатой:%n%s%n", findMaxSalary(employeeList));
-//        System.out.printf("%nСредняя зарплата у сотрудников - %dр%n", calcMeanSalary(employeeList));
-//        System.out.printf("%nФИО сотрудников:%n");
-//        printNameEmployees(employeeList);
+        printEmployeeList(employeeList);
+        System.out.printf("%nРасходы на зарплату в месяц - %dр%n", calcSalaryMonthly(employeeList));
+        System.out.printf("%nСотрудник с минимальной зарплатой:%n%s%n", findMinSalary(employeeList));
+        System.out.printf("%nСотрудник с максимальной зарплатой:%n%s%n", findMaxSalary(employeeList));
+        System.out.printf("%nСотрудник с максимальной зарплатой:%n%s%n", findMaxSalary(employeeList));
+        System.out.printf("%nСредняя зарплата у сотрудников - %dр%n", calcMeanSalary(employeeList));
+        System.out.printf("%nФИО сотрудников:%n");
+        printNameEmployees(employeeList);
         int percent = 3;
         String department = "Четвёртый";
         int salary = 200_000;
